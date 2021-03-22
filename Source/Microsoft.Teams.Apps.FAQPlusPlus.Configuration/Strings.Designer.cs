@@ -19,7 +19,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Configuration {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Strings {
@@ -61,13 +61,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Configuration {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hi, I&apos;m your friendly Q&amp;A bot. You can ask me questions, and I&apos;ll do my best to answer. If I can&apos;t help, I&apos;ll connect you to an expert.
-        ///
-        ///My key features:
-        ///
-        ///* Ask a question, get an answer
-        ///* Ask an expert
-        ///* Share feedback.
+        ///   Looks up a localized string similar to Hi, I&apos;m your friendly Q&amp;A bot. You can ask me questions, and I&apos;ll do my best to answer..
         /// </summary>
         public static string DefaultHelpTabText {
             get {
@@ -76,7 +70,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Configuration {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hi, I&apos;m your friendly Q&amp;A bot. You can ask me questions, and I&apos;ll do my best to answer. If I can&apos;t help, I&apos;ll connect you to an expert.
+        ///   Looks up a localized string similar to Hi, I&apos;m your friendly Q&amp;A bot. You can ask me questions, and I&apos;ll do my best to answer. 
         ///
         ///You can ask the following questions:
         ///* How do you work?

@@ -241,7 +241,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I didn&apos;t find a matching answer for this question. Do you want me to ask an expert?.
+        ///   Looks up a localized string similar to I didn&apos;t find a matching answer for this question..
         /// </summary>
         public static string CustomMessage {
             get {

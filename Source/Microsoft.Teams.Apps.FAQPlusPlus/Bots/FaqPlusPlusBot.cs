@@ -772,6 +772,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
 
             switch (text)
             {
+                /*
                 case Constants.AskAnExpert:
                     this.logger.LogInformation("Sending user ask an expert card");
                     await turnContext.SendActivityAsync(MessageFactory.Attachment(AskAnExpertCard.GetCard())).ConfigureAwait(false);
@@ -781,7 +782,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     this.logger.LogInformation("Sending user feedback card");
                     await turnContext.SendActivityAsync(MessageFactory.Attachment(ShareFeedbackCard.GetCard())).ConfigureAwait(false);
                     break;
-
+                    */
                 case Constants.TakeATour:
                     this.logger.LogInformation("Sending user tour card");
                     var userTourCards = TourCarousel.GetUserTourCards(this.appBaseUri);
@@ -891,6 +892,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
 
             switch (message?.Text)
             {
+                /*
                 case Constants.AskAnExpert:
                     this.logger.LogInformation("Sending user ask an expert card (from answer)");
                     var askAnExpertPayload = ((JObject)message.Value).ToObject<ResponseCardPayload>();
@@ -923,7 +925,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                     }
 
                     break;
-
+                    */
                 default:
                     var payload = ((JObject)message.Value).ToObject<ResponseCardPayload>();
 

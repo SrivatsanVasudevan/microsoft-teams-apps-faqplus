@@ -18,8 +18,8 @@
     "short": "FAQ Plus"
   },
   "description": {
-    "short": "A friendly FAQ bot that answers questions and connects you to experts.",
-    "full": "A friendly question and answer bot that answers commonly asked questions. If it can't answer, it will put you in touch with an expert as soon as they are available."
+    "short": "A friendly question and answer bot that answers commonly asked questions.",
+    "full": "A friendly question and answer bot that answers commonly asked questions."
   },
   "accentColor": "#64A2CC",
   "bots": [
@@ -38,14 +38,6 @@
             {
               "title": "Take a tour",
               "description": "Tour of key features"
-            },
-            {
-              "title": "Ask an expert",
-              "description": "Connect with an expert"
-            },
-            {
-              "title": "Share feedback",
-              "description": "Send feedback"
             }
           ]
         }

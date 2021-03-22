@@ -33,7 +33,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         Wrap = true,
                     },
                 },
-                Actions = new List<AdaptiveAction>
+                /*Actions = new List<AdaptiveAction>
                 {
                     new AdaptiveSubmitAction
                     {
@@ -49,7 +49,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                             UserQuestion = userQuestion,
                         },
                     },
-                },
+                },*/
             };
 
             return new Attachment

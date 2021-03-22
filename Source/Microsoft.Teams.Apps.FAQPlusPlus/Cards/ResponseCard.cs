@@ -31,7 +31,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
             AdaptiveCard responseCard = new AdaptiveCard(new AdaptiveSchemaVersion(1, 2))
             {
                 Body = BuildResponseCardBody(response, userQuestion, response.Answer, appBaseUri, payload),
-                Actions = BuildListOfActions(userQuestion, response.Answer),
+
+                // Actions = BuildListOfActions(userQuestion, response.Answer),
             };
 
             return new Attachment
